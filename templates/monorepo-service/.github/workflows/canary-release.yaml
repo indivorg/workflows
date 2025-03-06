@@ -65,7 +65,7 @@ jobs:
             PACKAGE_NAME=backend
 
       - name: Request version update
-        uses: peter-evans/repository-dispatch@v1
+        uses: peter-evans/repository-dispatch@v2
         with:
           token: ${{ secrets.INDIVBOT_GITHUB_TOKEN }}
           repository: indivorg/infra-app
