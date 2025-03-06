@@ -12,7 +12,7 @@ jobs:
   push:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - uses: FranzDiebold/github-env-vars-action@v2
       - uses: bjerkio/kopier@main
         with:
